@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top_background">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9BBD9E"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/PassengerRequest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/green_bg"
+            android:padding="@dimen/btn_medium"
+            android:text="Make a booking now"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="400dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/form"
+                android:paddingTop="10dp"
+                android:paddingRight="@dimen/form"
+                android:paddingBottom="32dp">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/layout"
+                    android:background="@drawable/edttxt_background"
+                    android:elevation="3dp"
+                    android:orientation="vertical"
+                    android:padding="8dp"
+                    app:layout_constraintTop_toBottomOf="@+id/txr_trans"
+                    tools:layout_editor_absoluteX="20dp">
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Selected Transport Service"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txtAddress"
+                            android:layout_width="149dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/VecOwnerName"
+                            android:textColor="#0F7015"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/Address"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Mr. S. Perera"
+                            android:textAlignment="textEnd"
+                            android:textColor="#5b5b5b"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txtAddress"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/Type"
+                            android:textColor="#0F7015"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/Address"
+                            android:layout_width="189dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/ServiceType"
+                            android:textAlignment="textEnd"
+                            android:textColor="#5b5b5b"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txtAddress"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/vType"
+                            android:textColor="#0F7015"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/Address"
+                            android:layout_width="189dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Bus"
+                            android:textAlignment="textEnd"
+                            android:textColor="#5b5b5b"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txtAddress"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/StartingPoint"
+                            android:textColor="#0F7015"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/txtAddress2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/EndingPoint"
+                            android:textColor="#0F7015"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txtGender"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/fee"
+                            android:textColor="#0F7015"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/Gender"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rs.0.00"
+                            android:textAlignment="textEnd"
+                            android:textColor="#5b5b5b"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout"
+                    android:layout_marginTop="@dimen/form"
+                    android:layout_marginRight="@dimen/form"
+                    android:text="Number of days travelling per week"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/txtnormal"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="clip_horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radioButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_marginBottom="@dimen/form"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/edttxt_background"
+                            android:checked="false"
+                            android:clickable="true"
+                            android:duplicateParentState="false"
+                            android:padding="5dp"
+                            android:text="5 days"
+                            android:textColor="#707070"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_marginBottom="@dimen/form"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/edttxt_background"
+                            android:padding="5dp"
+                            android:text="7 days"
+                            android:textColor="#707070"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/PostTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout"
+                    android:layout_marginTop="@dimen/form"
+                    android:layout_marginRight="@dimen/form"
+                    android:text="Travel ways(1 way/ 2way)"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/txtnormal"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="clip_horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radioButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_marginBottom="@dimen/form"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/edttxt_background"
+                            android:checked="false"
+                            android:clickable="true"
+                            android:duplicateParentState="false"
+                            android:padding="5dp"
+                            android:text="1 way only"
+                            android:textColor="#707070"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_marginBottom="@dimen/form"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/edttxt_background"
+                            android:padding="5dp"
+                            android:text="Both ways"
+                            android:textColor="#707070"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/postTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout"
+                    android:layout_marginTop="@dimen/form"
+                    android:layout_marginRight="@dimen/form"
+                    android:layout_weight="0.5"
+                    android:text="Reservationn Peiod"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/txtnormal"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="clip_horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radioButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_marginBottom="@dimen/form"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/edttxt_background"
+                            android:checked="false"
+                            android:clickable="true"
+                            android:duplicateParentState="false"
+                            android:padding="5dp"
+                            android:text="1 Month"
+                            android:textColor="#707070"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_marginBottom="@dimen/form"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/edttxt_background"
+                            android:padding="5dp"
+                            android:text="6 Month"
+                            android:textColor="#707070"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_marginBottom="@dimen/form"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/edttxt_background"
+                            android:padding="5dp"
+                            android:text="1 Year"
+                            android:textColor="#707070"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/PhoneNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="@dimen/form"
+                    android:text="App usage charges will be Rs.0.00"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/txtnormal"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/layout"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="@dimen/form"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_cancel"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/btn_large"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/background_btn"
+                        android:gravity="center"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/btnCancel"
+                        android:textColor="#ffffff"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_submitpost"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/btn_large"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/background_btn"
+                        android:gravity="center"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="10dp"
+                        android:text="Proceed"
+                        android:textColor="#ffffff"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

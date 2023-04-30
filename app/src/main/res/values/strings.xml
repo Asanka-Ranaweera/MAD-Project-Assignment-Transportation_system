@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">TransService</string>
+
+    <string name="request">Request</string>
+    <string name="viewAd">View Ads</string>
+    <string name="trans">Trans Solutions for you</string>
+    <string name="bookings">Bookings</string>
+    <string name="myAds">My Ads</string>
+    <string name="feedbacks">Feedbacks</string>
+    <string name="notifications">Notifications</string>
+    <string name="username">Upani Jithma</string>
+    <string name="usertype">Passenger</string>
+
+
+    <string name="name">Name</string>
+    <string name="nic">NIC</string>
+    <string name="gender">Gender</string>
+    <string name="dob">Date of Birth</string>
+    <string name="pno">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="title">Post Title</string>
+    <string name="content">Post Content</string>
+    <string name="address">Address</string>
+    <string name="un">Username</string>
+
+    <string name="vNo">Vehicle Number</string>
+    <string name="vType">Vehicle Type</string>
+    <string name="Type">Service type</string>
+    <string name="pickPoint">Pick up point</string>
+    <string name="desPoint">Destination</string>
+    <string name="passMessage">Drop a message for the driver</string>
+
+    <string name="bookingID">BookingID</string>
+    <string name="VecOwnerName">Transport Service Owner Name </string>
+    <string name="ServiceType">Staff/School service </string>
+    <string name="StartingPoint">Starts at ...</string>
+    <string name="EndingPoint">Ends at ...</string>
+    <string name="fee">Fee Rs.</string>
+    <string name="postDate">Post Created Date</string>
+    <string name="nSubject">Notification Subject</string>
+    <string name="message">Message....................................</string>
+    <string name="date">Date</string>
+
+    <string name="btnEditProfile">Edit Profile</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnSave">Save</string>
+    <string name="btnSubmitPost">Submit Post</string>
+    <string name="btnViewMore">View More  > </string>
+    <string name="btnDelete">Delete</string>
+    <string name="btnAdd">+</string>
+    <string name="btnEdtPost">Edit Post</string>
+    <string name="btnBookNow">Book Now</string>
+    <string name="btnCreate">Create</string>
+    <string name="btnEdt">Edit</string>
+
+</resources>

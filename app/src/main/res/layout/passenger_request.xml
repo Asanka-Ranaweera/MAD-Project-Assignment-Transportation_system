@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#343434">
+
+    <View
+        android:id="@+id/view18"
+        android:layout_width="wrap_content"
+        android:layout_height="360dp"
+        android:background="@drawable/top_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_bubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/circles" />
+
+    <ImageView
+        android:id="@+id/img_passenger"
+        android:layout_width="316dp"
+        android:layout_height="196dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="-40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_3474_removebg_preview" />
+
+    <TextView
+        android:id="@+id/PassengerRequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="176dp"
+        android:text="Passenger Request"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/img_bubble">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="32dp"
+                android:paddingTop="10dp"
+                android:paddingRight="32dp"
+                android:paddingBottom="32dp">
+
+                <TextView
+                    android:id="@+id/Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/form"
+                    android:text="@string/name"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/txtnormal"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txt_Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="@dimen/form"
+                    android:background="@drawable/edttxt_background"
+                    android:ems="10"
+                    android:hint="Enter your Name to display"
+                    android:inputType="textPersonName"
+                    android:padding="12dp"
+                    android:textColor="#707070"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/PostTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/form"
+                    android:text="@string/title"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/txtnormal"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txt_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/edttxt_background"
+                    android:ems="10"
+                    android:hint="Enter your post title"
+                    android:inputType="textPersonName"
+                    android:padding="12dp"
+                    android:textColor="#707070"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/PhoneNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/pno"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/txtnormal"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txt_pno"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="@dimen/form"
+                    android:background="@drawable/edttxt_background"
+                    android:ems="10"
+                    android:hint="Enter your mobile number"
+                    android:inputType="@android:string/emptyPhoneNumber"
+                    android:padding="12dp"
+                    android:textColor="#707070"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/PostContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/form"
+                    android:text="@string/content"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/txtnormal"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txt_post"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="@dimen/form"
+                    android:background="@drawable/edttxt_background"
+                    android:ems="10"
+                    android:hint="Enter the content \nto post \nthe advertistment"
+                    android:inputType="textLongMessage"
+                    android:padding="12dp"
+                    android:textColor="#707070"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_cancel"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/btn_large"
+                        android:background="@drawable/background_btn"
+                        android:gravity="center"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/btnCancel"
+                        android:textColor="#ffffff"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_submitpost"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/btn_large"
+                        android:background="@drawable/background_btn"
+                        android:gravity="center"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/btnSubmitPost"
+                        android:textColor="#ffffff"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
