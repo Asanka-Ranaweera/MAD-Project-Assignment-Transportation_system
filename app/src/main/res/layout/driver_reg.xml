@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#343434">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/circles"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-78dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="279dp"
+        android:layout_height="@dimen/txtv2"
+        android:layout_marginBottom="60dp"
+        android:text="@string/txtv2"
+        android:textColor="@color/white"
+        android:textSize="@dimen/topic"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.234"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="229dp"
+        android:layout_height="249dp"
+        android:layout_marginStart="196dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045"
+        app:srcCompat="@drawable/reg1" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="@dimen/s_layoutWidth"
+        android:layout_height="@dimen/s_layourHeight"
+        android:layout_marginStart="@dimen/s_mS"
+        android:layout_marginEnd="@dimen/s_mE"
+        android:layout_marginBottom="@dimen/s_mB"
+        android:background="@color/formbg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#b4bfb4"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="350dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="32dp"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                android:textColorHint="@color/formtxt"
+                android:textSize="@dimen/formtxt"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/agetxt"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="@string/h1"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                android:textColorHint="@color/formtxt"
+                android:textSize="@dimen/formtxt"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/form_l_height"
+                android:layout_marginStart="@dimen/form_mS"
+                android:layout_marginTop="@dimen/form_mT"
+                android:layout_marginEnd="@dimen/form_mE"
+                android:allowUndo="true"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:padding="8dp"
+                android:text="@string/txtv4"
+                android:textColor="@color/formtxt"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="36dp"
+                    android:allowUndo="true"
+                    android:padding="8dp"
+                    android:text="@string/rb1"
+                    android:textColor="#333833"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="@dimen/form_left"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="36dp"
+                    android:padding="8dp"
+                    android:text="@string/rb2"
+                    android:textColor="#333833"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editTextTextPersonName4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="@string/etxt4"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                android:textColor="#040504"
+                android:textColorHint="#333833"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="@string/etxt2"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                android:textColor="#040504"
+                android:textColorHint="#333833"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="@string/pw1"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColor="#040504"
+                android:textColorHint="#333833"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editPassword2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="@string/pw2"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#333833"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/reg_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/reg_btn_mL"
+                android:layout_marginTop="@dimen/reg_btn_mT"
+                android:backgroundTint="@color/btnColor"
+                android:text="@string/reg_btn"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="Already have an account? Login"
+                android:textAlignment="center"
+                android:textColor="#090a09"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextTextEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:textColor="#090a09" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

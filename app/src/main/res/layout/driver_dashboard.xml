@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:backgroundTint="@color/background">
+
+    <View
+        android:id="@+id/view12"
+        android:layout_width="wrap_content"
+        android:layout_height="360dp"
+        android:background="@drawable/tops_background" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="406dp"
+        android:layout_height="384dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/circles" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084"
+        app:srcCompat="@drawable/baseline_arrow_back_ios_24" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="145dp"
+        android:layout_height="131dp"
+        app:srcCompat="@drawable/vector"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <TextView
+        android:id="@+id/dName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/p_name"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <TextView
+        android:id="@+id/txtDriver2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/p_driver"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="@string/job_topic"
+        android:textAllCaps="true"
+        android:textColor="@color/tarea"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <ScrollView
+        android:layout_width="411dp"
+        android:layout_height="368dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="426dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="277dp"
+                android:layout_height="321dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/grey_background"
+                android:backgroundTint="?attr/colorSurface"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ad_mL"
+                    android:layout_marginTop="@dimen/ad_mT"
+                    android:fontFamily="serif"
+                    android:text="Transportation Type: Staff Service"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ad_mL"
+                    android:layout_marginTop="@dimen/ad_mT"
+                    android:fontFamily="serif"
+                    android:text="Vehicle: A/c Bus"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ad_mL"
+                    android:layout_marginTop="@dimen/ad_mT"
+                    android:fontFamily="serif"
+                    android:text="Vehicle Owner: Vijaya"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ad_mL"
+                    android:layout_marginTop="@dimen/ad_mT"
+                    android:fontFamily="serif"
+                    android:text="Route : Malabe to Kirulapana"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ad_mL"
+                    android:layout_marginTop="@dimen/ad_mT"
+                    android:fontFamily="serif"
+                    android:text="Experience Required: 3 years"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/btnColor"
+                    android:text="Apply" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="277dp"
+                android:layout_height="321dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/grey_background"
+                android:backgroundTint="?attr/colorSurface"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ad_mL"
+                    android:layout_marginTop="@dimen/ad_mT"
+                    android:fontFamily="serif"
+                    android:text="Transportation Type: School Service"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ad_mL"
+                    android:layout_marginTop="@dimen/ad_mT"
+                    android:fontFamily="serif"
+                    android:text="Vehicle: Van"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ad_mL"
+                    android:layout_marginTop="@dimen/ad_mT"
+                    android:fontFamily="serif"
+                    android:text="Vehicle Owner: Nishara"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ad_mL"
+                    android:layout_marginTop="@dimen/ad_mT"
+                    android:fontFamily="serif"
+                    android:text="Route : Kottawata to Nugegoda"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ad_mL"
+                    android:layout_marginTop="@dimen/ad_mT"
+                    android:fontFamily="serif"
+                    android:text="Experience Required: 5 years"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/btnColor"
+                    android:text="Apply" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

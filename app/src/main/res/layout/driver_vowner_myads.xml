@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="444dp"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/background_btn"
+        tools:layout_editor_absoluteX="-18dp"
+        tools:layout_editor_absoluteY="-19dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/circles"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-73dp" />
+
+    <ScrollView
+        android:layout_width="422dp"
+        android:layout_height="573dp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="162dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="344dp"
+                android:layout_height="511dp"
+                android:background="@drawable/grey_background"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="304dp"
+                    android:layout_height="111dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/btnColor"
+                    android:backgroundTint="@color/btnColor"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="My Advertisement - 01"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/button7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="@color/btnColor2"
+                            android:text="@string/btn_txtupdate" />
+
+                        <Button
+                            android:id="@+id/button9"
+                            android:layout_width="106dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="@color/btnColor2"
+                            android:text="@string/btn_deltxt" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView19"
+                    android:layout_width="180dp"
+                    android:layout_height="92dp"
+                    android:layout_marginLeft="65dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:srcCompat="@drawable/driver" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="332dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txtTelNo7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Transportation Type: "
+                            android:textColor="#0F7015"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/telno"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:layout_weight="1"
+                            android:text="Staff Service"
+                            android:textAlignment="textEnd"
+                            android:textColor="#5b5b5b"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="331dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txtTelNo7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Vehicle :"
+                            android:textColor="#0F7015"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/telno"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:layout_weight="1"
+                            android:text="A/c Bus"
+                            android:textAlignment="textEnd"
+                            android:textColor="#5b5b5b"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="332dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txtTelNo7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Owner's Name:"
+                            android:textColor="#0F7015"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/telno"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:layout_weight="1"
+                            android:text="Janak Ranaweera"
+                            android:textAlignment="textEnd"
+                            android:textColor="#5b5b5b"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="333dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txtTelNo7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Route:"
+                            android:textColor="#0F7015"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/telno"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:layout_weight="1"
+                            android:text="Kaduwela to Kirulapana"
+                            android:textAlignment="textEnd"
+                            android:textColor="#5b5b5b"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="331dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txtTelNo7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Experience Required:"
+                            android:textColor="#0F7015"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/telno"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:layout_weight="1"
+                            android:text="2 Years"
+                            android:textAlignment="textEnd"
+                            android:textColor="#5b5b5b"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txtTelNo7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Advertisement Period:"
+                            android:textColor="#0F7015"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/telno"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:layout_weight="1"
+                            android:text="1 Month"
+                            android:textAlignment="textEnd"
+                            android:textColor="#5b5b5b"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="329dp"
+                        android:layout_height="36dp"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txtTelNo7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Transportation Type: "
+                            android:textColor="#0F7015"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/telno"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:layout_weight="1"
+                            android:text="Staff Service"
+                            android:textAlignment="textEnd"
+                            android:textColor="#5b5b5b"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ad_tpic"
+        android:textAllCaps="true"
+        android:textSize="32sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
