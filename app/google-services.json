@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "953898508372",
+    "project_id": "trans-solution",
+    "storage_bucket": "trans-solution.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953898508372:android:77e40d785af5c9d8858dc1",
+        "android_client_info": {
+          "package_name": "com.example.mad_project_assignment_transportation_system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953898508372-v8lugj40ehf65p3r6aem0d5rqj77a28d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkVxdZZUG2lx0JlnZxKJWomWILmZZN9Go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953898508372-v8lugj40ehf65p3r6aem0d5rqj77a28d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953898508372:android:0d7ae191d0c24eac858dc1",
+        "android_client_info": {
+          "package_name": "com.example.tutorial05part2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953898508372-v8lugj40ehf65p3r6aem0d5rqj77a28d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkVxdZZUG2lx0JlnZxKJWomWILmZZN9Go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953898508372-v8lugj40ehf65p3r6aem0d5rqj77a28d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

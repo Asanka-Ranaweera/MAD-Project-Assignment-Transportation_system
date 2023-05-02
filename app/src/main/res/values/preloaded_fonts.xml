@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/akronim</item>
+        <item>@font/bangers</item>
+        <item>@font/cherry_swash</item>
+        <item>@font/combo</item>
+        <item>@font/great_vibes</item>
+        <item>@font/single_day</item>
+        <item>@font/sunshiney</item>
+        <item>@font/trade_winds</item>
+    </array>
+</resources>
