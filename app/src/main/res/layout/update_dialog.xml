@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etPtitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Title" />
+
+    <EditText
+        android:id="@+id/etpno"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etpost"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Post"
+        android:inputType="textPersonName" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnUpdateData"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="@dimen/btn_endpage"
+        android:layout_marginTop="@dimen/btn_endpage"
+        android:layout_marginRight="@dimen/btn_endpage"
+        android:layout_marginBottom="@dimen/btn_endpage"
+        android:layout_weight="1"
+        android:background="@drawable/background_btn"
+        android:text="Update Data"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/txtbtn_medium"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

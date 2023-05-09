@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.update_vehicle_details_page">
+
+    <ScrollView
+        android:layout_width="292dp"
+        android:layout_height="573dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:background="#D1D3D3"
+                android:text="Vehicle Number  :"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etVNum"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:ems="10"
+                android:hint="Enter number"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="#1B7C1F"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#D1D3D3"
+                android:text="Vehicle Model  :"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etVModel"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:ems="10"
+                android:hint="Enter  model"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="#1B7C1F"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:background="#D1D3D3"
+                android:text="Number Of Seats  :"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etVSeat"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:ems="10"
+                android:hint="Enter number of seats"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="#1B7C1F"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#D1D3D3"
+                android:text="Phone Number  :"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etVPNo"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:ems="10"
+                android:hint="Enter phone number"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="#1B7C1F"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#D1D3D3"
+                android:text="Vehicle  Type  :"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etVVehicleType"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:ems="10"
+                android:hint="Vehicle type"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="#1B7C1F"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:background="#D1D3D3"
+                android:text="Starting Point  :"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etVStartP"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:ems="10"
+                android:hint="Enter starting point"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="#1B7C1F"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#D1D3D3"
+                android:text="Destination  :"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etVDestination"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:ems="10"
+                android:hint="Enter destination"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="#1B7C1F"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:background="#D1D3D3"
+                android:text="Starting Time  (Morning) :"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etVStimeM"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:ems="10"
+                android:hint="Enter starting time"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="#1B7C1F"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#D1D3D3"
+                android:text="Arrival Time (Morning)  :"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etVAtimeM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter arrival time"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="#1B7C1F"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:background="#D1D3D3"
+                android:text="Departure Time (Evening)  :"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etVStimeE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter departure time"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="#1B7C1F"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="#D1D3D3"
+                android:text="Arrival Time (Evening)  :"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etVAtimeE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Arrival time"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="#1B7C1F"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="#D1D3D3"
+                android:text="Route  :"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etVRoute"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:ems="10"
+                android:hint="Enter Route"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="#1B7C1F"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnUpdateVData"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:backgroundTint="#15554E"
+                android:text="Update Details"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
