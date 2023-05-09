@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#343434"
+    tools:context=".activities.Booking_Vehicle_OwnerSide">
+
+
+    <ScrollView
+        android:layout_width="407dp"
+        android:layout_height="731dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:outlineSpotShadowColor="#686565">
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="404dp"
+                    android:layout_height="216dp"
+                    android:background="@drawable/design11"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:layout_marginEnd="96dp"
+                    android:fontFamily="@font/combo"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/textView6"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="1.0" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="79dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="24dp"
+                    android:text="Hi., "
+                    android:textColor="#DCDAD4"
+                    android:textSize="48sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@+id/textView32"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="@+id/view"
+                    app:layout_constraintTop_toTopOf="@+id/view" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="226dp"
+                    android:layout_height="35dp"
+                    android:fontFamily="@font/single_day"
+                    android:text="Trans Solution for you"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+
+                    app:layout_constraintEnd_toStartOf="@+id/textView4"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="57dp"
+                    android:layout_height="52dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="32dp"
+                    app:layout_constraintBottom_toTopOf="@+id/textView4"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="1.0"
+                    app:srcCompat="@drawable/profile11" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="92dp"
+                    android:layout_height="36dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="Profile"
+                    android:textAlignment="center"
+                    android:textColor="#090707"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="@+id/imageView"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="312dp"
+                    android:layout_height="543dp"
+                    android:background="@drawable/white_background"
+                    android:elevation="3dp"
+                    android:orientation="vertical"
+                    android:outlineAmbientShadowColor="#333030"
+                    android:padding="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="266dp"
+                        android:layout_height="88dp"
+                        android:text="Your Booking Details"
+                        android:textColor="#000000"
+                        android:textSize="34sp" />
+
+                    <LinearLayout
+                        android:layout_width="272dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclBooking"
+                        android:layout_width="268dp"
+                        android:layout_height="503dp" />
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
