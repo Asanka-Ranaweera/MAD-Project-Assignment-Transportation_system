@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#343434"
+    android:outlineAmbientShadowColor="#9E9494">
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_height="781dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="757dp"
+                android:outlineSpotShadowColor="#686565">
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="402dp"
+                    android:layout_height="404dp"
+                    android:background="@drawable/design11"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="220dp"
+                    android:layout_height="114dp"
+                    android:layout_marginTop="180dp"
+                    android:fontFamily="@font/single_day"
+                    android:outlineAmbientShadowColor="#5C5050"
+                    android:shadowColor="#534D4D"
+                    android:shadowRadius="20"
+                    android:text="Welcome to Trans Solution App"
+                    android:textAlignment="center"
+                    android:textColor="#0E1010"
+                    android:textSize="34sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView6"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/imageView6"
+                    app:layout_constraintTop_toTopOf="@+id/view" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="240dp"
+                    android:layout_height="135dp"
+                    android:layout_marginTop="80dp"
+                    android:outlineSpotShadowColor="#7A7373"
+                    app:layout_constraintBottom_toTopOf="@+id/textView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.557"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.428"
+                    app:srcCompat="@drawable/icon11" />
+
+                <LinearLayout
+                    android:layout_width="341dp"
+                    android:layout_height="414dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/white_background"
+                    android:elevation="3dp"
+                    android:orientation="vertical"
+                    android:outlineAmbientShadowColor="#333030"
+                    android:padding="35dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.486"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView"
+                    app:layout_constraintVertical_bias="1.0">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="250dp"
+                        android:layout_height="32dp"
+                        android:text="@string/Email"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/emailID"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/textbox"
+                        android:ems="10"
+                        android:hint="  Enter your email address"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="10dp"
+                        android:textAlignment="inherit"
+                        android:textColor="#070505"
+                        android:textColorHint="#989797" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Password"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/passwordID"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="25dp"
+                        android:background="@drawable/textbox"
+                        android:ems="10"
+                        android:hint="  Enter your password"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="10dp"
+                        android:textColor="#070505"
+                        android:textColorHint="#989797" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnLogin"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="202dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/btn_backgroundaaa"
+                        android:backgroundTint="#008066"
+                        android:text="Login"
+                        android:textColor="#000000"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnSignUp"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="204dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/btn_backgroundaaa"
+                        android:text="Signup"
+                        android:textColor="#000000"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#000000"
+    android:outlineAmbientShadowColor="#000000"
+    android:outlineSpotShadowColor="#000000"
+    tools:context=".activities.own_vehicle_details_page">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="312dp"
+        android:layout_height="541dp"
+        android:layout_marginEnd="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="387dp"
+                android:layout_height="1377dp"
+                android:layout_marginStart="15dp"
+                android:background="#EFFFFD"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="289dp"
+                    android:layout_height="111dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:background="#009688"
+                    android:padding="20dp"
+                    android:text="Enter Your Vehicle Details"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#009587"
+                    android:orientation="horizontal"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="0dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp">
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="208dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="10dp"
+                        android:backgroundTint="#0D4C47"
+                        android:text="Instructions"
+                        android:textColor="#FFFFFF"
+                        app:cornerRadius="50dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="337dp"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Vehicle Number  :"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/addVehicleRegNumber"
+                    android:layout_width="300dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="#009688"
+                    android:textColorHint="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="337dp"
+                    android:layout_height="wrap_content"
+                    android:text="Vehicle Model  :"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/addVehicleModel"
+                    android:layout_width="300dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="#009688"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="275dp"
+                    android:layout_height="8dp"
+                    android:layout_weight="1"
+                    android:text="Phone Number  :"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/addPhoneNumb"
+                    android:layout_width="287dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="#009688" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="337dp"
+                    android:layout_height="wrap_content"
+                    android:text="Number of Seats  :"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/addNumOfSeats"
+                    android:layout_width="306dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="#009688"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="283dp"
+                    android:layout_height="17dp"
+                    android:layout_weight="1"
+                    android:text="Select Type"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="201dp"
+                    android:layout_height="46dp"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/spinnerType"
+                        android:layout_width="31dp"
+                        android:layout_height="38dp"
+                        android:layout_weight="0.5"
+                        android:entries="@array/type"
+                        android:outlineAmbientShadowColor="#000000" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:text="Starting Point  :"
+                    android:textColor="#090909"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/addStartingPoint"
+                    android:layout_width="300dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="#009688"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="340dp"
+                    android:layout_height="30dp"
+                    android:text="destination  :"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/addDestination"
+                    android:layout_width="300dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="#009688"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="295dp"
+                    android:layout_height="45dp"
+                    android:text="Starting time from the starting point (morning)  :"
+                    android:textColor="#040404"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/addStartTimeMorning"
+                    android:layout_width="300dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="date|textPersonName"
+                    android:textColor="#009688"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="295dp"
+                    android:layout_height="45dp"
+                    android:text="Arrival time to the destination (morning)  :"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/addArrivalTimeMorning"
+                    android:layout_width="300dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="#009688"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Departure time (evening)  :"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/addStartTimeEvening"
+                    android:layout_width="300dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="#009688"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="290dp"
+                    android:layout_height="22dp"
+                    android:layout_weight="1"
+                    android:text="Arrival time to the destination (evening)  :"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/addArrivalTimeEvening"
+                    android:layout_width="300dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="#009688"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="341dp"
+                    android:layout_height="3dp"
+                    android:layout_weight="1"
+                    android:text="Vehicle Route  :"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/addRoute"
+                    android:layout_width="300dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:hint="Starting point > ..... >  ...... > .... > Destination "
+                    android:inputType="textMultiLine"
+                    android:textColor="#009688"
+                    android:textColorHint="#434141"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnRegister"
+                    android:layout_width="244dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#1F4A46"
+                    android:text="Register"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    app:cornerRadius="40dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
