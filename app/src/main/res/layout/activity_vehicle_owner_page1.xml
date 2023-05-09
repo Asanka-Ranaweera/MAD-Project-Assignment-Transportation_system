@@ -278,7 +278,7 @@
                                         android:layout_marginEnd="10dp"
                                         android:backgroundTint="#E0ECEB"
                                         app:layout_constraintBottom_toBottomOf="parent"
-                                        app:layout_constraintEnd_toStartOf="@+id/textView8"
+                                        app:layout_constraintEnd_toStartOf="@+id/textReq"
                                         app:layout_constraintHorizontal_bias="0.0"
                                         app:layout_constraintStart_toStartOf="parent"
                                         app:layout_constraintTop_toTopOf="parent"
@@ -297,7 +297,7 @@
                                         app:srcCompat="@drawable/ic_passenger_request1" />
 
                                     <TextView
-                                        android:id="@+id/textView8"
+                                        android:id="@+id/textReq"
                                         android:layout_width="113dp"
                                         android:layout_height="37dp"
                                         android:layout_marginTop="27dp"
@@ -338,7 +338,7 @@
                                     android:layout_height="match_parent">
 
                                     <ImageButton
-                                        android:id="@+id/imageButton5"
+                                        android:id="@+id/btnDrive1"
                                         android:layout_width="81dp"
                                         android:layout_height="75dp"
                                         android:layout_marginStart="16dp"
@@ -354,14 +354,14 @@
                                         android:layout_width="61dp"
                                         android:layout_height="56dp"
                                         android:layout_marginTop="4dp"
-                                        app:layout_constraintEnd_toEndOf="@+id/imageButton5"
+                                        app:layout_constraintEnd_toEndOf="@+id/btnDrive1"
                                         app:layout_constraintHorizontal_bias="0.55"
-                                        app:layout_constraintStart_toStartOf="@+id/imageButton5"
-                                        app:layout_constraintTop_toTopOf="@+id/imageButton5"
+                                        app:layout_constraintStart_toStartOf="@+id/btnDrive1"
+                                        app:layout_constraintTop_toTopOf="@+id/btnDrive1"
                                         app:srcCompat="@drawable/ic_driver_request" />
 
                                     <TextView
-                                        android:id="@+id/textView10"
+                                        android:id="@+id/btnDrive2"
                                         android:layout_width="91dp"
                                         android:layout_height="30dp"
                                         android:layout_marginTop="16dp"

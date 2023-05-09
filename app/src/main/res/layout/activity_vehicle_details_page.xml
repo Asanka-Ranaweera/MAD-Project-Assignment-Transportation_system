@@ -7,8 +7,8 @@
     android:background="#343434">
 
     <ScrollView
-        android:layout_width="395dp"
-        android:layout_height="718dp"
+        android:layout_width="396dp"
+        android:layout_height="832dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,7 +22,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="715dp"
+                android:layout_height="826dp"
                 android:outlineSpotShadowColor="#686565">
 
                 <View
@@ -37,16 +37,16 @@
 
                 <TextView
                     android:id="@+id/textView5"
-                    android:layout_width="213dp"
-                    android:layout_height="74dp"
-                    android:layout_marginTop="44dp"
+                    android:layout_width="214dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="48dp"
                     android:fontFamily="@font/sunshiney"
                     android:text="Have a Nice Day"
                     android:textColor="#08201D"
                     android:textSize="34sp"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toStartOf="@+id/imageView"
-                    app:layout_constraintHorizontal_bias="0.391"
+                    app:layout_constraintHorizontal_bias="0.371"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -66,7 +66,7 @@
                     android:id="@+id/textView4"
                     android:layout_width="115dp"
                     android:layout_height="26dp"
-                    android:layout_marginBottom="24dp"
+                    android:layout_marginBottom="48dp"
                     android:text="Profile"
                     android:textAlignment="center"
                     android:textColor="#090707"
@@ -78,8 +78,8 @@
 
                 <LinearLayout
                     android:id="@+id/linearLayout"
-                    android:layout_width="334dp"
-                    android:layout_height="550dp"
+                    android:layout_width="365dp"
+                    android:layout_height="647dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="44dp"
@@ -93,21 +93,22 @@
                     app:layout_constraintStart_toStartOf="parent">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="320dp"
-                        android:layout_height="447dp"
+                        android:layout_width="351dp"
+                        android:layout_height="540dp"
                         android:paddingLeft="10dp">
 
                         <androidx.fragment.app.FragmentContainerView
                             android:id="@+id/fragmentContainerView"
-                            android:name="com.example.mad_project_assignment_transportation_system.own_vehicle_details_page"
-                            android:layout_width="341dp"
-                            android:layout_height="445dp"
+                            android:name="com.example.mad_project_assignment_transportation_system.activities.own_vehicle_details_page"
+                            android:layout_width="331dp"
+                            android:layout_height="499dp"
+                            android:layout_marginBottom="4dp"
                             android:paddingLeft="10dp"
                             android:scrollIndicators="top|bottom"
                             android:scrollbars="vertical"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintHorizontal_bias="0.238"
+                            app:layout_constraintHorizontal_bias="0.476"
                             app:layout_constraintStart_toStartOf="parent"
                             tools:layout="@layout/fragment_own_vehicle_details_page" />
 
@@ -125,8 +126,8 @@
 
                     <View
                         android:id="@+id/divider3"
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
+                        android:layout_width="350dp"
+                        android:layout_height="2dp"
                         android:background="?android:attr/listDivider" />
 
                     <LinearLayout
@@ -135,8 +136,8 @@
                         android:orientation="horizontal">
 
                         <androidx.constraintlayout.widget.ConstraintLayout
-                            android:layout_width="317dp"
-                            android:layout_height="wrap_content">
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
 
                             <ImageView
                                 android:id="@+id/btnYourBus"
@@ -148,7 +149,7 @@
                                 app:layout_constraintEnd_toStartOf="@+id/btnAddNew"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintVertical_bias="1.0"
+                                app:layout_constraintVertical_bias="0.0"
                                 app:srcCompat="@drawable/ic_bus1" />
 
                             <ImageView
@@ -169,7 +170,7 @@
                                 android:id="@+id/textView11"
                                 android:layout_width="134dp"
                                 android:layout_height="43dp"
-                                android:layout_marginStart="16dp"
+                                android:layout_marginStart="36dp"
                                 android:layout_marginTop="2dp"
                                 android:text="Your Bus"
                                 android:textAlignment="center"
@@ -179,13 +180,13 @@
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toBottomOf="@+id/btnYourBus"
-                                app:layout_constraintVertical_bias="0.615" />
+                                app:layout_constraintVertical_bias="0.181" />
 
                             <TextView
                                 android:id="@+id/textView12"
-                                android:layout_width="87dp"
-                                android:layout_height="36dp"
-                                android:layout_marginEnd="36dp"
+                                android:layout_width="106dp"
+                                android:layout_height="29dp"
+                                android:layout_marginEnd="44dp"
                                 android:layout_marginBottom="7dp"
                                 android:text="Add New"
                                 android:textAlignment="center"
@@ -194,13 +195,25 @@
                                 android:textStyle="bold"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/btnAddNew" />
+                                app:layout_constraintTop_toBottomOf="@+id/btnAddNew"
+                                app:layout_constraintVertical_bias="0.454" />
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                     </LinearLayout>
 
                 </LinearLayout>
+
+                ImageView
+                    android:id="@+id/btnBackVDash"
+                    android:layout_width="42dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="4dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_baseline_arrow_back_ios_new_24" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>

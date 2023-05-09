@@ -1,8 +1,9 @@
-package com.example.mad_project_assignment_transportation_system
+package com.example.mad_project_assignment_transportation_system.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
+import com.example.mad_project_assignment_transportation_system.R
 
 class vehicle_details_page : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,6 +17,7 @@ class vehicle_details_page : AppCompatActivity() {
         val imgUser: ImageView = findViewById(R.id.btnAddNew)
         val fragmentHome = own_vehicle_details_page()
         val fragmentUser = add_new_vehicle_page()
+
 
         imgUser.setOnClickListener {
             imgHome.setImageResource(R.drawable.ic_unselected_bus11)

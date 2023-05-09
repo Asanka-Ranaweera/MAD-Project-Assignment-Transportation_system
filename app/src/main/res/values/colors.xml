@@ -9,4 +9,23 @@
     <color name="white">#FFFFFFFF</color>
     <color name="backgroundBlack">#343434</color>
     <color name="btnGreen">#008066</color>
+
+
+<!--chathu-->
+
+    <color name="btnColor">#008066</color>
+    <color name="background">#343434</color>
+    <color name="formbg">#91a196</color>
+    <color name="tarea">#cbd6cc</color>
+    <color name="txtcolor">#ffffff</color>
+    <color name="formtxt">#333833</color>
+    <color name="btnColor2">#1B504B</color>
+
+
+<!-- upani-->
+    <color name="green">#068251</color>
+    <color name="themegreen">#008066</color>
+    <color name="lightgreen">#9BBD9E</color>
+    <color name="dark">#343434</color>
+    <color name="divider_grey">#9BBBBB</color>
 </resources>

@@ -1,9 +1,10 @@
-package com.example.mad_project_assignment_transportation_system
+package com.example.mad_project_assignment_transportation_system.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.mad_project_assignment_transportation_system.R
 
-class view_bookinglist_page : AppCompatActivity() {
+class View_bookinglist_page : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_view_bookinglist_page)

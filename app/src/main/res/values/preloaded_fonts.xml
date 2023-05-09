@@ -4,11 +4,15 @@
         <item>@font/aclonica</item>
         <item>@font/akronim</item>
         <item>@font/bangers</item>
+        <item>@font/black_and_white_picture</item>
         <item>@font/cherry_swash</item>
         <item>@font/combo</item>
+        <item>@font/delius_swash_caps</item>
+        <item>@font/felipa</item>
         <item>@font/great_vibes</item>
         <item>@font/single_day</item>
         <item>@font/sunshiney</item>
         <item>@font/trade_winds</item>
+        <item>@font/train_one</item>
     </array>
 </resources>

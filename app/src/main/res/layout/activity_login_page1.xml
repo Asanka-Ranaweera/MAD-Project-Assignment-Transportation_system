@@ -8,8 +8,8 @@
     android:outlineAmbientShadowColor="#9E9494">
 
     <ScrollView
-        android:layout_width="408dp"
-        android:layout_height="675dp"
+        android:layout_width="400dp"
+        android:layout_height="781dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,13 +23,13 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="757dp"
                 android:outlineSpotShadowColor="#686565">
 
                 <View
                     android:id="@+id/view"
-                    android:layout_width="wrap_content"
-                    android:layout_height="360dp"
+                    android:layout_width="402dp"
+                    android:layout_height="404dp"
                     android:background="@drawable/design11"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
@@ -70,10 +70,9 @@
                     app:srcCompat="@drawable/icon11" />
 
                 <LinearLayout
-                    android:layout_width="329dp"
-                    android:layout_height="354dp"
+                    android:layout_width="341dp"
+                    android:layout_height="414dp"
                     android:layout_marginStart="10dp"
-                    android:layout_marginTop="8dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="16dp"
                     android:background="@drawable/white_background"
@@ -98,7 +97,7 @@
                         android:textStyle="bold" />
 
                     <EditText
-                        android:id="@+id/editTextTextPersonName"
+                        android:id="@+id/emailID"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:background="@drawable/textbox"
@@ -120,9 +119,10 @@
                         android:textStyle="bold" />
 
                     <EditText
-                        android:id="@+id/editTextTextPersonName2"
+                        android:id="@+id/passwordID"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
+                        android:layout_marginBottom="25dp"
                         android:background="@drawable/textbox"
                         android:ems="10"
                         android:hint="  Enter your password"
@@ -146,7 +146,7 @@
                         android:textStyle="bold" />
 
                     <androidx.appcompat.widget.AppCompatButton
-                        android:id="@+id/button5"
+                        android:id="@+id/btnSignUp"
                         style="@android:style/Widget.Button"
                         android:layout_width="204dp"
                         android:layout_height="wrap_content"

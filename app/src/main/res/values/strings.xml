@@ -1,6 +1,187 @@
 <resources>
     <string name="app_name">MAD-Project-Assignment-Transportation_system</string>
     <string name="Email">Email</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="type">
+        <item>AC</item>
+        <item>Non-AC</item>
+    </string-array>
+
+
+    <!--    chathuma-->
+
+
+    <string name="txt2">Select the Transportation System:</string>
+    <string name="txt16">Post Your \n Advertisement</string>
+    <string name="txt18">Select Your Vehicle:</string>
+    <string name="txt20">Enter Vehicle Owner\'s Name:</string>
+    <string name="etxt9">Vehicle Owner Name</string>
+    <string name="txt">Enter Vehicle Owner\'s Number:</string>
+    <string name="etxt3">Vehicle Owner Number</string>
+    <string name="txt21">Select the Route:</string>
+    <string name="txt5">Experience Required:</string>
+    <string name="etxt5">Driver Experience</string>
+    <string name="txtv2">Create \n Account</string>
+    <string name="h1">Age</string>
+    <string name="txtv4">Select Your Gender :</string>
+    <string name="rb1">Male</string>
+    <string name="rb2">Female</string>
+    <string name="etxt4">Mention Your Experience</string>
+    <string name="etxt2">Email</string>
+    <string name="pw1">Password</string>
+    <string name="pw2">Re-Enter Password</string>
+    <string name="reg_btn">Register</string>
+    <string name="form2_btntxt">Pay</string>
+    <string name="txtv6">Select the Advertisement Duration:</string>
+    <string name="form2_btntxt1">Calculate</string>
+    <string name="f3_txt1">Your Total Payment is :</string>
+    <string name="f3_price">Rs. 10,000.00</string>
+    <string name="f3_btn">Pay Now</string>
+    <string name="f3_txt9">Your payment will be deducted by the given phone number !!</string>
+    <string name="p_name">Harshit Chathuranga</string>
+    <string name="p_driver">Driver</string>
+    <string name="p_g1">Male</string>
+    <string name="p_exp">Experience :</string>
+    <string name="p_years">2 Years</string>
+    <string name="p_tno">Telephone No :</string>
+    <string name="pf_application">My Applications</string>
+    <string name="pf_app1">Application 01</string>
+    <string name="reg_txt">Select Your  \nCategory to Register </string>
+    <string name="v_owner">Vehicle Owner</string>
+    <string name="passenger">Passenger</string>
+    <string name="job_topic">Job Vacancies</string>
+    <string name="notify1">Your Application by Eshara has been rejected.</string>
+    <string name="notify2">Your password is going to get expired soon.</string>
+    <string name="btn_txtupdate">Update</string>
+<!--    <string name="name">Harshit Chathuranga</string>-->
+    <string name="btn_deltxt">Delete</string>
+    <string name="ad_tpic">Driver Advertisements</string>
+
+    //spinner transportType
+    <array name="transportType">
+        <item>School Service</item>
+        <item>Staff Service</item>
+    </array>
+
+    //spinner vType
+    <array name="vType">
+        <item>Van</item>
+        <item>Bus</item>
+        <item>Three Wheeler</item>
+    </array>
+
+    //spinner duration
+    <array name="duration">
+        <item>1 month</item>
+        <item>3 months</item>
+        <item>6 month</item>
+    </array>
+
+
+
+
+
+
+<!--upani-->
+    <string-array name="v_no">
+        <item>Select vehicle number</item>
+        <item>QW1234</item>
+        <item>AS2345</item>
+        <item>ZX3456</item>
+        <item>ER4567</item>
+    </string-array>
+
+    <string-array name="t_ways">
+        <item>1 way only</item>
+        <item>2 way (Both)</item>
+    </string-array>
+
+    <string-array name="t_days">
+        <item>5 days (Weekdays only)</item>
+        <item>7 days</item>
+    </string-array>
+
+    <string-array name="r_period">
+        <item>1 Month - Rs.60</item>
+        <item>6 Months - Rs.300</item>
+        <item>1 Year Rs.500</item>
+    </string-array>
+
+    <string name="request">Request</string>
+    <string name="viewAd">View Ads</string>
+    <string name="trans">Trans Solutions for you</string>
+    <string name="bookings">Bookings</string>
+    <string name="myAds">My Ads</string>
+    <string name="feedbacks">Feedbacks</string>
+    <string name="notifications">Notifications</string>
+    <string name="username">Upani Jithma</string>
+    <string name="usertype">Passenger</string>
+
+
+    <string name="name">Name</string>
+    <string name="nic">NIC</string>
+    <string name="gender">Gender</string>
+    <string name="dob">Date of Birth</string>
+    <string name="pno">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="title">Post Title</string>
+    <string name="content">Post Content</string>
+    <string name="address">Address</string>
+    <string name="un">Username</string>
+
+    <string name="vNo">Vehicle Number</string>
+    <string name="vType">Vehicle Type</string>
+    <string name="Type">Service type</string>
+    <string name="pickPoint">Pick up point</string>
+    <string name="desPoint">Destination</string>
+    <string name="passMessage">Drop a message for the driver</string>
+
+    <string name="bookingID">BookingID</string>
+    <string name="VecOwnerName">Transport Service Owner Name </string>
+    <string name="ServiceType">Staff/School service </string>
+    <string name="StartingPoint">Starts at ...</string>
+    <string name="EndingPoint">Ends at ...</string>
+    <string name="fee">Fee Rs.</string>
+    <string name="postDate">Post Created Date</string>
+    <string name="nSubject">Notification Subject</string>
+    <string name="message">Message....................................</string>
+    <string name="date">Date</string>
+
+    <string name="btnEditProfile">Edit Profile</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnSave">Save</string>
+    <string name="btnSubmitPost">Submit Post</string>
+    <string name="btnViewMore">View More  > </string>
+    <string name="btnDelete">Delete</string>
+    <string name="btnAdd">+</string>
+    <string name="btnEdtPost">Edit Post</string>
+    <string name="btnBookNow">Book Now</string>
+    <string name="btnCreate">Create</string>
+    <string name="btnEdt">Edit</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!--    <string name="normal_font_style">normal</string>-->
 
     <!--    <string name="Enter_user_name" />-->
